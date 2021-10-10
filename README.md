@@ -49,7 +49,7 @@ Use an Unsupervised Machine Learning approach with a clustering algorithm to gro
 	- `crypto_data_symbol_added.csv`
 		- User-Modified version of `crypto_data.csv` where the first field of Header was changed to `Symbol` from being initially blank with a leading comma in CSV File
 	- `crypto_data_symbol_added_edited.csv`
-		- User-Modified version of `crypto_data.csv`, where European-Style "." thousands separators contained within 2 entries of Field 7 `TotalCoinSupply` have been removed.
+		- User-Modified version of `crypto_data_symbol_added.csv`, where European-Style "." thousands separators contained within 2 entries of Field 7 `TotalCoinSupply` have been removed.
 	- `crypto_clustering_starter_code.ipynb`
 		- Client-provided Starter Code Jupyter Notebook File
 
