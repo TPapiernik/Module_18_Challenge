@@ -52,6 +52,8 @@ Use an Unsupervised Machine Learning approach with a clustering algorithm to gro
 		- User-Modified version of `crypto_data_symbol_added.csv`, where European-Style "." thousands separators contained within 2 entries of Field 7 `TotalCoinSupply` have been removed.
 	- `crypto_clustering_starter_code.ipynb`
 		- Client-provided Starter Code Jupyter Notebook File
+	- `crypto_clustering.ipynb`
+		- User-Modified version of `crypto_clustering_starter_code.ipynb` used to complete Deliverable 1
 
 
 Additional information about `crypto_data_symbol_added.csv` is outlined below in Tables 1 & 2.
@@ -90,7 +92,7 @@ Beyond these considerations, all the fields contain their expected types of valu
 
 ### Deliverable 1
 
-
+See `crypto_clustering.ipynb`
 
 ### Deliverable 2
 
