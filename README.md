@@ -75,7 +75,7 @@ Additional information about `crypto_data_symbol_added.csv` is outlined below in
 	  
 #### Data Quality                           
 
-Overall, data quality is high, at least at the surface level of metadata, without taking veracity into account.
+Overall, data quality is high, at least at the surface level of metadata, without considering veracity.
 The original file had only 6 Header Identifiers for 7 Fields, 508 rows contain NULL values (all in the `TotalCoinsMined` field),
 and 2 records in the `TotalCoinSupply` field contained European-Style "." thousands separators.
 
