@@ -19,7 +19,10 @@ for this new investment.
 
 ### Tasks
 
-
+1. Preprocess and clean dataset.
+2. Reduce Dimensions using Principal Component Analysis
+3. Cluster Cryptocurrencies using K-means
+4. Visualize Results in 3-D and 2-D Scatterplots
 
 ### Approach
 
@@ -116,33 +119,23 @@ See `crypto_clustering.ipynb`
 
 ## Results
 
-### Overview of the Analysis
+At the end of the K-means analysis, the 532 Cryptocurrencies considered were clustered into Four (4) Classes.
 
+This is best shown on the 2-D Scatterplot of Total Coins Mined vs. Total Coin Supply, with Coin Class differentiated
+with color. It is shown here as Figure 1.
 
+**Figure 1: Total Coins Mines vs. Total Coin Supply with Clusters Highlighted**
 
-### Deliverable 1 Overview
+![Figure 1](Images/Figure_01_bokeh_plot.png "Figure 1")
 
+In summary, the Four Clusters are essentially two outliers, one with 100% of the Coins Mined with a Large Coin Supply (Class 1: 'BitTorrent'),
+and one with a Large Coin Supply with a Small Amount of the Coins Mined (Class 2: 'TurtleCoin'). Implicit in their names is their respective
+statuses: Torrents go fast and collide against their boundaries, Turtles go slow and steady towards the finish line, which can sometimes be
+quite distant.
 
+Beyond these outliers, there is a third diffuse group with Six (6) members who have either a Moderate Coin Supply, a Moderate Number of Coins Mined,
+or both. (Class 3: 'EliteCoin', 'MoonCoin', 'ByteCoin', 'gCn Coin', 'Newton Coin', 'Qwertycoin')
 
-### Deliverable 2 Overview
-
-
-
-### Deliverable 3 Overview
-
-
-
-### Deliverable 4 Overview
-
-
-
-### Discussion of Results
-
-
-
-## Summary
-
-
-
+The remaining 524 cryptocurrencies are members of Class 0. They all have both a relatively Small Coin Supply, and a relatively Small Amount of the Coins Mined.
 
 -- END --
