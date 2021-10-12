@@ -39,7 +39,13 @@ Use an Unsupervised Machine Learning approach with a clustering algorithm to gro
 - Software:
 	- Jupyter notebook server 6.3.0, running Python 3.7.10 64-bit
 		- Dependencies:
-			- x
+			- hvplot.pandas
+			- pandas
+			- path [Path]
+			- plotly.express
+			- sklearn.cluster [KMeans]
+			- sklearn.decomposition [PCA]
+			- sklearn.preprocessing [MinMaxScaler, StandardScaler]
 
 - Data:
 	- `crypto_data.csv`
@@ -94,7 +100,7 @@ Beyond these considerations, all the fields contain their expected types of valu
 See `crypto_clustering.ipynb`
 
 Note: My removal of trailing whitespace from entries in the `ProofType` field of `crypto_data.csv` resulted in 97 columns for the X DataFrame, rather than the 98 as shown in the provided Starter Code.
-In the provided Starter Code, 'ProofType_PoW/PoS' appears twice as a column for this reason.
+In the provided Starter Code, 'ProofType_PoW/PoS' appears twice as a column, because 'PoW/PoS' appears in the original unmodified source data as both 'PoW/PoS' and 'PoW/PoS '.
 
 ### Deliverable 2
 
