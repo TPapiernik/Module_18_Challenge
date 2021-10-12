@@ -56,7 +56,7 @@ Use an Unsupervised Machine Learning approach with a clustering algorithm to gro
 		- User-Modified version of `crypto_clustering_starter_code.ipynb` used to complete Deliverable 1
 
 
-Additional information about `crypto_data_symbol_added.csv` is outlined below in Tables 1 & 2.
+Additional information about `crypto_data_symbol_added_edited.csv` is outlined below in Tables 1 & 2.
 
 **Table 1: Source Data Description**
 | File Name                               | Brief Description of Contents
@@ -92,6 +92,9 @@ Beyond these considerations, all the fields contain their expected types of valu
 ### Deliverable 1
 
 See `crypto_clustering.ipynb`
+
+Note: My removal of trailing whitespace from entries in the `ProofType` field of `crypto_data.csv` resulted in 97 columns for the X DataFrame, rather than the 98 as shown in the provided Starter Code.
+In the provided Starter Code, 'ProofType_PoW/PoS' appears twice as a column for this reason.
 
 ### Deliverable 2
 
