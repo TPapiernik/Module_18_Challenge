@@ -104,15 +104,15 @@ In the provided Starter Code, 'ProofType_PoW/PoS' appears twice as a column, bec
 
 ### Deliverable 2
 
-
+See `crypto_clustering.ipynb`
 
 ### Deliverable 3
 
-
+See `crypto_clustering.ipynb`
 
 ### Deliverable 4
 
-
+See `crypto_clustering.ipynb`
 
 ## Results
 
